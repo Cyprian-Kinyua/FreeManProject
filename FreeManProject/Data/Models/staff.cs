@@ -3,47 +3,47 @@ using System.Collections.Generic;
 
 namespace FreeManProject.Data.Models;
 
-public partial class staff
+public partial class Staff
 {
-    public int staff_id { get; set; }
+    public int StaffId { get; set; }
 
-    public string staff_regno { get; set; } = null!;
+    public string StaffRegno { get; set; } = null!;
 
-    public string first_name { get; set; } = null!;
+    public string FirstName { get; set; } = null!;
 
-    public string? last_name { get; set; }
+    public string? LastName { get; set; }
 
-    public string? email { get; set; }
+    public string? Email { get; set; }
 
-    public string phone_number { get; set; } = null!;
+    public string PhoneNumber { get; set; } = null!;
 
-    public DateOnly? date_of_birth { get; set; }
+    public DateOnly? DateOfBirth { get; set; }
 
-    public string? gender { get; set; }
+    public string? Gender { get; set; }
 
-    public int postal_address { get; set; }
+    public int PostalAddress { get; set; }
 
-    public string? city { get; set; }
+    public string? City { get; set; }
 
-    public int? postal_code { get; set; }
+    public int? PostalCode { get; set; }
 
-    public string emergency_contact_name { get; set; } = null!;
+    public string EmergencyContactName { get; set; } = null!;
 
-    public string emergency_contact_phone { get; set; } = null!;
+    public string EmergencyContactPhone { get; set; } = null!;
 
-    public DateOnly? hire_date { get; set; }
+    public DateOnly? HireDate { get; set; }
 
-    public string? position { get; set; }
+    public string? Position { get; set; }
 
-    public string? department { get; set; }
+    public string? Department { get; set; }
 
-    public decimal? salary { get; set; }
+    public decimal? Salary { get; set; }
 
-    public string? staff_status { get; set; }
+    public string? StaffStatus { get; set; }
 
-    public string? profile_photo_url { get; set; }
+    public string? ProfilePhotoUrl { get; set; }
 
-    public DateOnly? created_at { get; set; }
+    public DateOnly? CreatedAt { get; set; }
 
-    public DateOnly? updated_at { get; set; }
+    public DateOnly? UpdatedAt { get; set; }
 }

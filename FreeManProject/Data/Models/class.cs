@@ -3,35 +3,35 @@ using System.Collections.Generic;
 
 namespace FreeManProject.Data.Models;
 
-public partial class class
+public partial class Class
 {
-    public int class_id { get; set; }
+    public int ClassId { get; set; }
 
-    public int? class_type_id { get; set; }
+    public int? ClassTypeId { get; set; }
 
-    public int? trainer_id { get; set; }
+    public int? TrainerId { get; set; }
 
-    public int? facility_id { get; set; }
+    public int? FacilityId { get; set; }
 
-    public DateOnly class_date { get; set; }
+    public DateOnly ClassDate { get; set; }
 
-    public TimeOnly start_time { get; set; }
+    public TimeOnly StartTime { get; set; }
 
-    public TimeOnly end_time { get; set; }
+    public TimeOnly EndTime { get; set; }
 
-    public int? max_participants { get; set; }
+    public int? MaxParticipants { get; set; }
 
-    public int? current_bookings { get; set; }
+    public int? CurrentBookings { get; set; }
 
-    public int? waitlist_count { get; set; }
+    public int? WaitlistCount { get; set; }
 
-    public string? status { get; set; }
+    public string? Status { get; set; }
 
-    public string? cancellation_reason { get; set; }
+    public string? CancellationReason { get; set; }
 
-    public string? special_notes { get; set; }
+    public string? SpecialNotes { get; set; }
 
-    public DateTime? created_at { get; set; }
+    public DateTime? CreatedAt { get; set; }
 
-    public DateTime? updated_at { get; set; }
+    public DateTime? UpdatedAt { get; set; }
 }

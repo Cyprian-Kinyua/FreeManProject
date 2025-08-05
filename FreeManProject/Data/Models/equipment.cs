@@ -3,39 +3,39 @@ using System.Collections.Generic;
 
 namespace FreeManProject.Data.Models;
 
-public partial class equipment
+public partial class Equipment
 {
-    public int equipment_id { get; set; }
+    public int EquipmentId { get; set; }
 
-    public string name { get; set; } = null!;
+    public string Name { get; set; } = null!;
 
-    public int equipment_category { get; set; }
+    public int EquipmentCategory { get; set; }
 
-    public string? brand { get; set; }
+    public string? Brand { get; set; }
 
-    public string? model { get; set; }
+    public string? Model { get; set; }
 
-    public string? serial_number { get; set; }
+    public string? SerialNumber { get; set; }
 
-    public DateOnly? purchase_date { get; set; }
+    public DateOnly? PurchaseDate { get; set; }
 
-    public decimal? purchase_price { get; set; }
+    public decimal? PurchasePrice { get; set; }
 
-    public DateOnly? warranty_expiry_date { get; set; }
+    public DateOnly? WarrantyExpiryDate { get; set; }
 
-    public string? location_area { get; set; }
+    public string? LocationArea { get; set; }
 
-    public string? equipment_status { get; set; }
+    public string? EquipmentStatus { get; set; }
 
-    public DateOnly? last_maintenance_date { get; set; }
+    public DateOnly? LastMaintenanceDate { get; set; }
 
-    public DateOnly? next_maintenance_due { get; set; }
+    public DateOnly? NextMaintenanceDue { get; set; }
 
-    public string? usage_instructions { get; set; }
+    public string? UsageInstructions { get; set; }
 
-    public string? safety_notes { get; set; }
+    public string? SafetyNotes { get; set; }
 
-    public DateOnly? created_at { get; set; }
+    public DateOnly? CreatedAt { get; set; }
 
-    public DateOnly? updated_at { get; set; }
+    public DateOnly? UpdatedAt { get; set; }
 }
